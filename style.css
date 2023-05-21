@@ -1,20 +1,16 @@
-body {
-font-family: 'Poppins', serif;
-}
-
-#container {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 70px;
-}
-
-.card {
-    margin-top: 20px;
-    margin-left: 70px
-}
-
-#rodape{
-    background-color:#ebf2f7;
-    padding: 50px;
-}
+    #container {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    
+    .card {
+        margin-top: 20px;
+        margin-left: 70px
+    }
+    
+    #rodape{
+        background-color:#ebf2f7;
+        padding: 50px;
+    }
