@@ -1,0 +1,25 @@
+
+body {
+  background-color: #FFFCF3;
+font-family: 'Poppins', serif;
+}
+nav class {
+  back-ground-color: #216962;
+}
+#container {
+    background-color: #FFFCF3;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 70px
+}
+
+#rodape{
+    background-color:#ebf2f7;
+    padding: 50px;
+}
