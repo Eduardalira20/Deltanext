@@ -1,0 +1,19 @@
+ #container {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    
+    .card {
+        margin-top: 20px;
+        margin-left: 70px
+    }
+    
+    #rodape{
+        color:#002238;
+        background-color:#b9e2fe;
+
+;
+        padding: 50px;
+    }
