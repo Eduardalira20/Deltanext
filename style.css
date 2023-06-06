@@ -91,8 +91,6 @@ nav {
   
   .buttons :hover{
     background-color: #db3d3a;
-    height: 43px;
-    width: 93px;
   }
 
   @media (max-width: 600px) {
