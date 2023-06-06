@@ -68,6 +68,7 @@ nav {
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    vertical-align: middle;
   }
 
   .material-icons{
