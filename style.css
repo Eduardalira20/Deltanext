@@ -1,66 +1,180 @@
-.navbar-nav.align-items-center {
-    margin-left: auto;
+body{
+    margin: 0;
+}
+nav {
+    background-color: #114F9A;
     display: flex;
     align-items: center;
-}
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
 
-#form-topo {
-    margin-left: 60px;
+  .navigation {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
 
-}
+  .navigation li {
+    margin-right: 20px; 
+  }
 
-#campo-de-pesquisa {
-    width: 300px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
+  .navigation li a {
+    text-decoration: none;
+    color: #ffffff; 
+  }
+  
+  .navigation li a:hover {
+        color:#FFD105;
+  }
 
-#pesquisar {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 6px;
-    padding: 6px;
-    background-color: #6aafdd;
+  .dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color:#114F9A;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: #FFD105;
+  }
+
+  .dropdown-content li {
+    padding: 12px 16px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .search input {
+    padding: 7px;
+    width: 200px;
+    border-radius: 20px;
     border: none;
-    color: white;
-}
-
-#login {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 6px;
-    padding: 6px;
-    background-color: #6aafdd;
+  }
+  
+  .search button {
+    padding: 3px 4px;
+    background-color: white;
+    color: grey;
     border: none;
-    color: white;
-}
+    cursor: pointer;
+    border-radius: 20px;
+  }
 
-#cadastre-se {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 6px;
-    padding: 6px;
-    background-color: #6aafdd;
+  .material-icons{
+
+    padding: 2px;
+    margin-top: 2px;
+  }
+
+  .buttons button {
+    padding: 5px 10px;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: #C24B48;
+    color: rgb(255, 255, 255);
     border: none;
-    color: white;
-}
+    cursor: pointer;
+    font-size: medium;
+  }
+  
+  .buttons :hover{
+    background-color: #db3d3a;
+    height: 43px;
+    width: 93px;
+  }
+
+  @media (max-width: 600px) {
+    .search {
+      display: none;
+    }
+    
+    .buttons button {
+        display: none;
+      }
+  }
+  
 
 #link-botao-topo {
     text-decoration: none;
-    color: white;
-    background-color: rgb(82, 137, 255);
-    padding: 10px;
+    color:#ffffff;
+    background-color:#114F9A;
+    padding: 7px;
     position: fixed;
     right: 10px;
     bottom: 10px;
     box-shadow: 3px 3px 10px #333;
-    border-radius: 40%;
+    border-radius: 40%; 
+}
+
+
+#capa-frase1{
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow:3px 3px 53px #797878;
+}
+
+#capa-frase2{
+  margin-top: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  text-shadow:3px 3px 10px #797878;
+}
+
+.fonte-especial{
+  font-family:"Geologica", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color:#114F9A;
+}
+
+.fonte-especial-frase-2{
+  font-family: "Geologica", sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  color:#114F9A;
+}
+
+
+.topico{
+  font-family:"Geologica", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 24px;
+  color: #114F9A;
+}
+
+.topico-direita{
+  font-family:"Geologica", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20px;
+  color: #114F9A;
+  margin-bottom: 50px;
+}
+
+.paragrafos{
+  text-align: justify;
 }
 
 #container {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 70px;
 }
 
@@ -74,6 +188,8 @@
 
 #sobre-sala-de-aula {
     margin-left: 20px;
+    text-align: justify;
+    margin-top: 10px;
 }
 
 .card {
@@ -97,7 +213,6 @@
 
 input, select, textarea {
     border-radius: 5px;
-
 }
 
 .campo-faleconosco label {

@@ -17,109 +17,118 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
+
     <title>Deltanext</title>
 </head>
 
 <body style="font-family: 'Poppins', serif; min-height: 100vh; min-width: 100%;">
-    <!--bootstrap do header-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid" style="background-color: rgb(192, 224, 244)">
-            <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
-                    <path
-                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
-                </svg>Deltanext</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Descobrir</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Populares</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Certificados</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Instituiçoes parceiras
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Unipê</a></li>
-                            <li><a class="dropdown-item" href="#">Uniesp</a></li>
-                            <li><a class="dropdown-item" href="#">Estácio</a></li>
-                        </ul>
-                    </li>
-
-
-                    <form id="form-topo" class="d-flex">
-                        <input class="form-control" id="campo-de-pesquisa" type="text" />
-                        <button class="btn btn-primary" id="pesquisar"> Pesquisar </button>
-                        <button class="btn btn-primary" id="login"> Login </button>
-                        <button class="btn btn-primary" id="cadastre-se"> Cadastro </button>
-                    </form>
-
-
-
-
-                </ul>
-            </div>
+   
+    <!--navbar-->
+    <nav>
+        <div class="logo">
+          <img src="imagens/logodeltanext.png" alt="Logo">
         </div>
-    </nav>
-    </svg>
+    
+        <ul class="navigation">
+            <li><a href="#">Populares</a></li>
+            <li><a href="#">Métodos</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li class="dropdown">
+              <a href="#">Instituições Parceiras &#9662;</a>
+              <ul class="dropdown-content">
+                <li><a href="#">Unipê</a></li>
+                <li><a href="#">Uniesp</a></li>
+                <li><a href="#">Estácio</a></li>
+              </ul>
+            </li>
+        </ul>
+    
+        <div class="search">
+          <input type="text" placeholder="Pesquisar">
+          <button type="submit"><span class="material-icons">search</span> </button>
+        </div>
+        <div class="buttons">
+          <button>Login</button>
+          <button>Cadastro</button>
+        </div>
+      </nav>
+
     <!--botao de topo da pagina-->
-    <a id="link-botao-topo" href="#"> &#9650; </a>
+    <a id="link-botao-topo" href="#"> <span class="material-symbols-outlined">
+        keyboard_arrow_up </span> </a>
+
     <!--conteudo da pagina-->
+
+    <div id="capa">
+        <p id="capa-frase1">
+           <span class="fonte-especial">Abra as portas do conhecimento.</span>
+        </p>
+        <p id="capa-frase2">
+            <span class= "fonte-especial-frase-2"> Explore cursos gratuitos e conecte-se com uma comunidade de aprendizagem vibrante.</span>
+        </p>
+    </div>
+
+    <div>
+        <p class="topico">
+            Fóruns em destaque:
+        </p>
+    </div>
+
     <div id="container">
-        Pensado para estudantes de ensino médio/universitários que desejam maiores qualificações em seu futuro
-        profissional.<br>
-        Nos baseamos em uma sala de aula invertida e temos como objetivo uma aprendizagem humanizada e moldável para os
-        mais diversos tipos de alunos, tanto na inclusão de pessoas com deficiências físicas, quanto em limitações
-        cognitivas.<br>
-        Variedade de cursos 100% gratuitos para os usuários, sobre os mais diversos tópicos.<br>
-        Os cursos não são ministrados por professores, mas sim pela própria “sala de aula”.<br>Além de possuir horários
-        e demandas pensadas
-        subjetivamente
-        na disponibilidade de cada um. Os alunos terão a liberdade de estudar seus tópicos de interesse da forma que
-        mais
-        os
-        convém, tendo em vista que são incontáveis os métodos de estudo existentes, dos mais populares aos mais
-        individuais.<br>
-        Nossa premissa é dar o apoio e o livre arbítrio de se aprimorar tanto nos estudos, quanto no mercado de
-        trabalho, que
-        com o avanço da tecnologia, se torna cada vez mais afunilado e exigente quanto a qualificações.Um grande dilema
-        que se
-        passa na mente de todo jovem é a necessidade de experiência para conseguir um trabalho, mas a necessidade de um
-        trabalho
-        para conseguir experiência. Diferentemente dos cursinhos tradicionais.
+        <p class="paragrafos"> 
+            Nos baseamos em uma sala de aula invertida e temos como objetivo uma aprendizagem humanizada e moldável para os
+            mais diversos tipos de alunos, tanto na inclusão de pessoas com deficiências físicas, quanto em limitações
+            cognitivas.<br>
+            Variedade de cursos 100% gratuitos para os usuários, sobre os mais diversos tópicos.
+            Os cursos não são ministrados por professores, mas sim pela própria “sala de aula”.Além de possuir horários e demandas pensadas subjetivamente na disponibilidade de cada um. Os alunos terão a liberdade de estudar seus tópicos de interesse da forma que mais os convém, tendo em vista que são incontáveis os métodos de estudo existentes, dos mais populares aos mais
+            individuais.<br>
+            Nossa premissa é dar o apoio e o livre arbítrio de se aprimorar tanto nos estudos, quanto no mercado de
+            trabalho, que
+            com o avanço da tecnologia, se torna cada vez mais afunilado e exigente quanto a qualificações.Um grande dilema
+            que se
+            passa na mente de todo jovem é a necessidade de experiência para conseguir um trabalho, mas a necessidade de um
+            trabalho
+            para conseguir experiência. Diferentemente dos cursinhos tradicionais.
+        </p>    
         <img src="https://img.freepik.com/vetores-premium/materiais-para-livros-na-mesa-de-estudo_18660-1163.jpg?w=740"
             width="500" height="400">
     </div>
+
     <div id="segundo-paragrafo"><!--segundo paragrafo de conteudo-->
+        
         <div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/0kPSHVuxOaw"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
-        <p id="sobre-sala-de-aula">
-            <b>Sala de aula Invertida, o que é?</b>
-            <br><br>
-            A sala de aula invertida é uma grande inspiração. Esse método é uma inovação na forma como o ensino é
-            conduzido. Nele, os alunos estudam o conteúdo em casa, por meio de vídeos, textos e outras fontes, enquanto
-            as aulas presenciais são utilizadas para atividades práticas e discussões em grupo.
-            <br><br>
-            Na forma tradicional de ensino, o professor assume a dianteira, usando o quadro e os livros para introduzir
-            novos conhecimentos para os alunos. O dever de casa é usado como reforço do que foi ensinado na sala de
-            aula. Já na metodologia da sala de aula invertida, o aprendizado começa antes da aula com o aluno estudando
-            os materiais elaborados e/ou selecionados pelo professor. Com esse conhecimento prévio, professor e alunos
-            levantam discussões, reforçam pontos importantes e interagem na aula presencial.
-        </p>
+
+        <div> 
+            <p 
+                class="topico-direita"> Sala de aula Invertida, o que é?
+            </p>
+            
+            <p id="sobre-sala-de-aula">
+                
+                A sala de aula invertida é uma grande inspiração. Esse método é uma inovação na forma como o ensino é
+                conduzido. Nele, os alunos estudam o conteúdo em casa, por meio de vídeos, textos e outras fontes, enquanto
+                as aulas presenciais são utilizadas para atividades práticas e discussões em grupo.
+                <br><br>
+                Na forma tradicional de ensino, o professor assume a dianteira, usando o quadro e os livros para introduzir
+                novos conhecimentos para os alunos. O dever de casa é usado como reforço do que foi ensinado na sala de
+                aula. Já na metodologia da sala de aula invertida, o aprendizado começa antes da aula com o aluno estudando
+                os materiais elaborados e/ou selecionados pelo professor. Com esse conhecimento prévio, professor e alunos
+                levantam discussões, reforçam pontos importantes e interagem na aula presencial.
+            </p>
+        </div>
     </div>
     <!--bloquinho de notas azul-->
     <div class="card border-info mb-3" style="max-width: 18rem;">
@@ -182,5 +191,4 @@
         </div>
     </footer>
 </body>
-
 </html>
