@@ -1,7 +1,8 @@
-body{
+  body{
     margin: 0;
+    overflow-x: hidden;
 }
-nav {
+  nav {
     background-color: #114F9A;
     display: flex;
     align-items: center;
@@ -10,6 +11,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 100;
   }
   
   .logo img {
@@ -116,37 +118,37 @@ nav {
     border-radius: 40%; 
 }
 
+.imagem-capa{
+  margin-top: 60px;
+}
+
 
 #capa-frase1{
-  margin-top: 160px;
+  margin-top: -225px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-shadow:3px 3px 53px #797878;
-}
-
-#capa-frase2{
-  margin-top: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-  text-shadow:3px 3px 10px #797878;
-}
-
-.fonte-especial{
   font-family:"Geologica", sans-serif;
   font-weight: 700;
   font-size: 60px;
-  color:#114F9A;
+  color:#ffffff;
 }
 
-.fonte-especial-frase-2{
+#capa-frase2{
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+  text-shadow:3px 3px 10px #797878;
   font-family: "Geologica", sans-serif;
   font-weight: 200;
-  font-size: 22px;
-  color:#114F9A;
+  font-size: 24px;
+  color:#ffffff;
+
 }
+
 
 
 .topico{
@@ -155,6 +157,7 @@ nav {
   font-size: 20px;
   margin-left: 70px;
   color: #114F9A;
+  margin-top: 50px;
 }
 
 .topico-direita{
@@ -255,3 +258,280 @@ input, select, textarea {
     margin-left: 25%;
     margin-right: 25%;
 }
+
+/*cards*/
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geologica", sans-serif;
+}
+
+.meu-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::selection{
+    background:#114F9A;
+    color: #fff;
+}
+
+.meu-time{
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.meu-time .main-card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200%;
+}
+
+.meu-time .main-card .cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0px;
+    justify-content: space-between;
+}
+
+.main-card .cards .card{
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease;
+}
+
+.main-card .cards .card:hover{
+    transform: translateY(-15px);
+}
+
+.cards .card .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards .card .content .img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 3px;
+    background:#114F9A;
+    margin-bottom: 14px;
+}
+
+.card .content .img img{
+    height: 100%;
+    width: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card .content .name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card .content .job{
+    font-size: 20px;
+    color:#114F9A;
+}
+  
+.card .content .media-icons{
+    margin-top: 10px;
+    display: flex;
+  
+}
+
+.media-icons a{
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    margin: 0 4px;
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background:#114F9A;
+    transition: all 0.3s ease;
+}
+
+.media-icons a:hover{
+    color:#114F9A;
+    background-color: #fff;
+    border-color:#114F9A;
+}
+   
+.container .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+@media (max-width: 768px) {
+    .main-card .cards .card{
+      margin: 20px 0 10px 0;
+      width: calc(100% / 2 - 10px);
+    }
+}
+  @media (max-width: 600px) {
+    .main-card .cards .card{
+      /* margin: 20px 0 10px 0; */
+      width: 100%;
+    }
+}
+
+/*footer*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+#footer_content{
+    font-family: 'inter,sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    background-color:#dfdfdf;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem 3.5rem;
+}
+footer{
+    width: 100%;
+    color:#114F9A;
+}
+
+.footer-link{
+    text-decoration: none;
+}
+
+#footer_contacts h1{
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color:rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i{
+    font-size: 1.25rem;
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.6;
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook{
+    background-color:  #4267b3;
+}
+
+#whatsapp{
+    background-color: #25d366;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link{
+    color: #000000;
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover{
+    color:#C24B48;
+}
+
+#footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p{
+    color:#114F9A;
+}
+
+#input_group{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#input_group input{
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button{
+    background-color:#114F9A;
+    border: none;
+    color: #fff;
+    padding: 0px 1.25rem;
+    font-size: 1.15rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover{
+    opacity: 0.8;
+}
+
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color:#114F9A;
+    color: #ffffff;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1,1fr);
+        padding: 3rem 2rem;
+    }
+}
+
+
