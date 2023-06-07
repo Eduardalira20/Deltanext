@@ -206,11 +206,12 @@
 }
 
 #form-faleconosco {
-    margin-top: 5%;
+    margin-top: 7%;
     margin-bottom: 5%;
     margin-left: 33%;
     margin-right: 33%;
     justify-content: center;
+    
 }
 
 input, select, textarea {
@@ -223,17 +224,17 @@ input, select, textarea {
 }
 
 .campo-faleconosco input[type="text"], .campo-faleconosco input[type="email"], .campo-faleconosco textarea {
-    border: 1px solid #6aafdd;
+    border: 1px solid #114F9A;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
     margin-bottom: 30px;
 }
 
 .campo-faleconosco select {
-    border: 1px solid #6aafdd;
+    border: 1px solid #0a3d7a;
     display: block;
     margin-bottom: 30px;
-    background-color: #6aafdd;
+    background-color: #114F9A;
     color: white;
 }
 
@@ -245,7 +246,7 @@ input, select, textarea {
     margin-top: 16px;
     margin-bottom: 16px;
     padding: 6px;
-    background-color: #6aafdd;
+    background-color: #114F9A;
     border: none;
     color: white;
     border-radius: 5px;
