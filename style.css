@@ -8,7 +8,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0.625rem;
   position: fixed;
   width: 100%;
   top: 0;
@@ -27,7 +27,7 @@ nav {
 }
 
 .navigation li {
-  margin-right: 20px; 
+  margin-right: 1.25rem; 
 }
 
 .navigation li a {
@@ -50,7 +50,7 @@ nav {
 }
 
 .dropdown-content li {
-  padding: 12px 16px;
+  padding: 0.75rem 1rem;
 }
 
 .dropdown:hover .dropdown-content {
@@ -58,14 +58,14 @@ nav {
 }
 
 .search input {
-  padding: 7px;
+  padding: 0.4375rem;
   width: 200px;
   border-radius: 20px;
   border: none;
 }
 
 .search button {
-  padding: 1px 4px;
+  padding: 0.0625rem 0.25rem;
   background-color: white;
   color: grey;
   border: none;
@@ -75,12 +75,12 @@ nav {
 }
 
 .material-icons{
-  padding: 2px;
-  margin-top: 2px;
+  padding: 0.125rem;
+  margin-top: 0.125rem;
 }
 
 .buttons button {
-  padding: 5px 10px;
+  padding: 0.3125rem 0.625rem;
   height: 40px;
   width: 90px;
   border-radius: 20px;
@@ -105,45 +105,33 @@ nav {
   }
 }
 
-#link-botao-topo {
-  text-decoration: none;
-  color:#ffffff;
-  background-color:#114F9A;
-  padding: 7px;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  box-shadow: 3px 3px 10px #333;
-  border-radius: 40%; 
-}
-
 .imagem-capa{
   margin-top: 60px;
 }
 
 
 #capa-frase1{
-  margin-top: -225px;
+  margin-top: -14.0625rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow:3px 3px 53px #797878;
+  text-shadow: 0.1875rem 0.1875rem 3.3125rem #797878;
   font-family:"Geologica", sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 3.75rem;
   color:#ffffff;
 }
 
 #capa-frase2{
-  margin-top: 6px;
+  margin-top: 0.375rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
-  text-shadow: 3px 3px 10px #797878;
+  margin-bottom: 9.375rem;
+  text-shadow: 0.1875rem 0.1875rem 0.625rem #797878;
   font-family: "Geologica", sans-serif;
   font-weight: 200;
-  font-size: 24px;
+  font-size: 1.5rem;
   color:#ffffff;
 }
 
@@ -151,19 +139,19 @@ nav {
 .topico{
   font-family:"Geologica", sans-serif;
   font-weight: 700;
-  font-size: 20px;
-  margin-left: 70px;
+  font-size: 1.25rem;
+  margin-left: 4.375rem;
   color: #114F9A;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .topico-direita{
   font-family:"Geologica", sans-serif;
   font-weight: 700;
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 1.25rem;
+  margin-left: 1.25rem;
   color: #114F9A;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .paragrafos{
@@ -173,27 +161,27 @@ nav {
 #container {
   display: flex;
   align-items: center;
-  margin-top: 10px;
-  margin-left: 70px;
+  margin-top: 0.625rem;
+  margin-left: 4.375rem;
 }
 
 #segundo-paragrafo {
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  margin-right: 70px;
-  margin-left: 70px;
+  margin-top: 1.25rem;
+  margin-right: 4.375rem;
+  margin-left: 4.375rem;
 }
 
 #sobre-sala-de-aula {
-  margin-left: 20px;
+  margin-left: 1.25rem;
   text-align: justify;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .card {
-  margin-top: 20px;
-  margin-left: 70px
+  margin-top: 1.25rem;
+  margin-left: 4.375rem;
 }
 
 /*fale conosco*/
@@ -212,21 +200,21 @@ input, select, textarea {
 
 .campo-faleconosco label {
   display: block;
-  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
 }
 
 .campo-faleconosco input[type="text"], .campo-faleconosco input[type="email"] {
   border: 1px solid #114F9A;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   width: 304px;
 }
 
 .campo-faleconosco select {
   border: 1px solid #0a3d7a;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   background-color: #114F9A;
   color: white;
 }
@@ -235,14 +223,14 @@ input, select, textarea {
   border: 1px solid #114F9A;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   width: 416px;
 }
 
 #botao-faleconosco {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  padding: 6px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.375rem;
   background-color: #114F9A;
   border: none;
   color: white;
@@ -252,8 +240,8 @@ input, select, textarea {
 /*fale conosco - enviado*/
 #faleconosco-enviado {
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 12.5rem;
+  margin-bottom: 12.5rem;
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -282,7 +270,7 @@ input, select, textarea {
 .meu-time{
   width: 100%;
   overflow: hidden;
-  padding: 40px 0;
+  padding: 2.5rem 0;
 }
 
 .meu-time .main-card{
@@ -294,14 +282,14 @@ input, select, textarea {
 .meu-time .main-card .cards{
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0px;
+  margin: 0 0rem;
   justify-content: space-between;
 }
 
 .main-card .cards .card{
   background: #ffffff;
   border-radius: 12px;
-  padding: 30px;
+  padding: 1.875rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.4s ease;
 }
@@ -323,9 +311,9 @@ input, select, textarea {
   height: 130px;
   width: 130px;
   border-radius: 50%;
-  padding: 3px;
+  padding: 0.1875rem;
   background:#114F9A;
-  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
 }
 
 .card .content .img img{
@@ -337,12 +325,12 @@ input, select, textarea {
 }
 
 .card .content .name{
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
 .card .content .job{
-  font-size: 20px;
+  font-size: 1.25rem;
   color:#114F9A;
 }
 
@@ -352,13 +340,25 @@ input, select, textarea {
 
 }
 
+#link-botao-topo {
+  text-decoration: none;
+  color:#ffffff;
+  background-color:#114F9A;
+  padding: 0.4375rem;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  box-shadow: 3px 3px 10px #333;
+  border-radius: 40%; 
+}
+
 .media-icons a{
   text-align: center;
   line-height: 33px;
   height: 35px;
   width: 35px;
-  margin: 0 4px;
-  font-size: 14px;
+  margin: 0 0.25rem;
+  font-size: 0.875rem;
   color: #FFF;
   border-radius: 50%;
   border: 2px solid transparent;
@@ -376,12 +376,12 @@ input, select, textarea {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 @media (max-width: 768px) {
   .main-card .cards .card{
-    margin: 20px 0 10px 0;
+    margin: 1.25rem 0 0.625rem 0;
     width: calc(100% / 2 - 10px);
   }
 }
@@ -397,7 +397,7 @@ input, select, textarea {
 #rodape {
   color: #002238;
   background-color: #b9e2fe;
-  padding: 50px;
+  padding: 3.125rem;
 }
 
 /*footer*/
@@ -543,5 +543,3 @@ footer{
     padding: 3rem 2rem;
   }
 }
-
-
