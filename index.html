@@ -1,323 +1,276 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-    <!--conexao com o css externo-->
-    <link href="style.css" rel="stylesheet">
-    <!--conexao do bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-    <!--conexao do google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <!--conexao com o css externo-->
+        <link href="style.css" rel="stylesheet">
+        <!--conexao do bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <!--conexao do google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
-    <!--logo icon do site-->
-    <link rel="icon" href="logo-icon-navegacao.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
+        <!--logo icon do site-->
+        <link rel="icon" href="logo-icon-navegacao.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--footer-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--footer-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Deltanext</title>
-</head>
+        <title>Deltanext</title>
+    </head>
 
-<body style="font-family: 'Poppins', serif; min-height: 100vh; min-width: 100%;">
-   
-    <header> 
-        <!--navbar-->
-        <nav>
-            <a href="index.html">
-                <div class="logo">
-                    <img src="imagens/logodeltanext.png" alt="Logo">
-                </div>
-            </a>
+    <body style="font-family: 'Poppins', serif; min-height: 100vh; min-width: 100%;">
         
-            <ul class="navigation">
-                <li><a href="#">Populares</a></li>
-                <li><a href="#">Métodos</a></li>
-                <li><a href="index.html#sobre-nos">Sobre Nós</a></li>
-                <li class="dropdown">
-                <a href="#">Instituições Parceiras &#9662;</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">Unipê</a></li>
-                    <li><a href="#">Uniesp</a></li>
-                    <li><a href="#">Estácio</a></li>
-                </ul>
-                </li>
-            </ul>
-        
-            <div class="search">
-            <input type="text" placeholder="Pesquisar">
-            <button type="submit"><span class="material-icons">search</span> </button>
-            </div>
-            <div class="buttons">
-            <button>Login</button>
-            <button>Cadastro</button>
-            </div>
-        </nav>
-    </header>
-
-    <!--botao de topo da pagina-->
-    <a id="link-botao-topo" href="#"> <span class="material-symbols-outlined">
-        keyboard_arrow_up </span> </a>
-
-    <!--conteudo da pagina-->
-
-    <img src="livros-capa.png" class="imagem-capa">
-
-    <div id="capa">
-        <p id="capa-frase1">
-           <span>Abra as portas do conhecimento.</span>
-        </p>
-        <p id="capa-frase2">
-            <span> Explore cursos gratuitos e conecte-se com uma comunidade de aprendizagem vibrante.</span>
-        </p>
-    </div>
-
-    <div>
-        <p class="topico" id="sobre-nos">
-            Sobre nós:
-        </p>
-    </div>
-
-    <div id="container">
-        <p class="paragrafos"> 
-            Nos baseamos em uma sala de aula invertida e temos como objetivo uma aprendizagem humanizada e moldável para os
-            mais diversos tipos de alunos, tanto na inclusão de pessoas com deficiências físicas, quanto em limitações
-            cognitivas.
-            <br></br>
-            Variedade de cursos 100% gratuitos para os usuários, sobre os mais diversos tópicos.
-            Os cursos não são ministrados por professores, mas sim pela própria “sala de aula”.Além de possuir horários e demandas pensadas subjetivamente na disponibilidade de cada um. Os alunos terão a liberdade de estudar seus tópicos de interesse da forma que mais os convém, tendo em vista que são incontáveis os métodos de estudo existentes, dos mais populares aos mais
-            individuais.
-            <br></br>
-            Nossa premissa é dar o apoio e o livre arbítrio de se aprimorar tanto nos estudos, quanto no mercado de
-            trabalho, que
-            com o avanço da tecnologia, se torna cada vez mais afunilado e exigente quanto a qualificações.Um grande dilema
-            que se
-            passa na mente de todo jovem é a necessidade de experiência para conseguir um trabalho, mas a necessidade de um
-            trabalho
-            para conseguir experiência,diferentemente dos cursinhos tradicionais.
-        </p>    
-        <img src="https://img.freepik.com/vetores-premium/materiais-para-livros-na-mesa-de-estudo_18660-1163.jpg?w=740"
-            width="500" height="400">
-    </div>
-
-    <div id="segundo-paragrafo"><!--segundo paragrafo de conteudo-->
-        
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/0kPSHVuxOaw"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </div>
-
-        <div> 
-            <p 
-                class="topico-direita"> Sala de aula Invertida, o que é?
-            </p>
+        <header> 
+            <!--navbar-->
+            <nav>
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="logodeltanext.png" alt="Logomarca do Delta Next">
+                    </div>
+                </a>
             
-            <p id="sobre-sala-de-aula">
-                
-                A sala de aula invertida é uma grande inspiração. Esse método é uma inovação na forma como o ensino é
-                conduzido. Nele, os alunos estudam o conteúdo em casa, por meio de vídeos, textos e outras fontes, enquanto
-                as aulas presenciais são utilizadas para atividades práticas e discussões em grupo.
-                <br><br>
-                Na forma tradicional de ensino, o professor assume a dianteira, usando o quadro e os livros para introduzir
-                novos conhecimentos para os alunos. O dever de casa é usado como reforço do que foi ensinado na sala de
-                aula. Já na metodologia da sala de aula invertida, o aprendizado começa antes da aula com o aluno estudando
-                os materiais elaborados e/ou selecionados pelo professor. Com esse conhecimento prévio, professor e alunos
-                levantam discussões, reforçam pontos importantes e interagem na aula presencial.
+                <ul class="navigation">
+                    <li><a href="#">Populares</a></li>
+                    <li><a href="#">Métodos</a></li>
+                    <li><a href="index.html#sobre-nos">Sobre Nós</a></li>
+                    <li class="dropdown">
+                        <a href="#">Instituições Parceiras &#9662;</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Unipê</a></li>
+                            <li><a href="#">Uniesp</a></li>
+                            <li><a href="#">Estácio</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <div class="search">
+                    <input type="text" placeholder="Pesquisar">
+                    <button type="submit"><span class="material-icons">search</span></button>
+                </div>
+                <div class="buttons">
+                    <button>Login</button>
+                    <button>Cadastro</button>
+                </div>
+            </nav>
+        </header>
+
+        <!--botao de topo da pagina-->
+        <a id="link-botao-topo" href="#"><span class="material-symbols-outlined">keyboard_arrow_up</span></a>
+
+        <!--conteudo da pagina-->
+        <img src="livros-capa.png" alt="Estante de livros desfocada como imagem de fundo para as duas frases a seguir" class="imagem-capa">
+
+        <div id="capa">
+            <p id="capa-frase1">
+                <span>Abra as portas do conhecimento.</span>
+            </p>
+            <p id="capa-frase2">
+                <span>Explore cursos gratuitos e conecte-se com uma comunidade de aprendizagem vibrante.</span>
             </p>
         </div>
-    </div>
 
-     <!--cards nosso time-->
+        <div>
+            <p class="topico" id="sobre-nos">
+                Sobre nós:
+            </p>
+        </div>
 
-     <div>
-        <p class="topico"  >
-            Nosso time:
-        </p>
-     </div>
+        <div id="container">
+            <p class="paragrafos"> 
+                Nos baseamos em uma sala de aula invertida e temos como objetivo uma aprendizagem humanizada e moldável para os mais diversos tipos de alunos, tanto na inclusão de pessoas com deficiências físicas, quanto em limitações cognitivas.
+                <br></br>
+                Variedade de cursos 100% gratuitos para os usuários, sobre os mais diversos tópicos. Os cursos não são ministrados por professores, mas sim pela própria “sala de aula”.Além de possuir horários e demandas pensadas subjetivamente na disponibilidade de cada um. Os alunos terão a liberdade de estudar seus tópicos de interesse da forma que mais os convém, tendo em vista que são incontáveis os métodos de estudo existentes, dos mais populares aos mais individuais.
+                <br></br>
+                Nossa premissa é dar o apoio e o livre arbítrio de se aprimorar tanto nos estudos, quanto no mercado de trabalho, que com o avanço da tecnologia, se torna cada vez mais afunilado e exigente quanto a qualificações. Um grande dilema que se passa na mente de todo jovem é a necessidade de experiência para conseguir um trabalho, mas a necessidade de um trabalho para conseguir experiência, diferentemente de cursinhos tradicionais.
+            </p>    
+            <img src="https://img.freepik.com/vetores-premium-materiais-para-livros-na-mesa-de-estudo_18660-1163.jpg?w=740" alt="Ilustração de materiais para estudo" width="500" height="400">
+        </div>
 
-     <div class="meu-time" id="nosso-time">
-        <div class="main-card">
-            <div class="cards">
-                <!--card-->
-                <div class="card">
-                  <div class="content">
-                        <div class="img">
-                         <img src="icon.png" alt="">
-                        </div>
-                        <div class="details">
-                         <div class="name">Ana Carolina</div>
-                         <div class="job">Web Developer</div>
-                        </div>
-                        <div class="media-icons">
-                         <a href="https://pt-br.facebook.com/" target="_blank" ><i class="fab fa-facebook-f"></i></a>
-                         <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
-                         <a href="https://www.instagram.com/cora_queiroga/?igshid=MmJiY2I4NDBkZg%3D%3D" target="_blank"><i class="fab fa-instagram" ></i></a>
-                         <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-                        </div>
-                 </div>
-               </div>
+        <div id="segundo-paragrafo">
+            <!--segundo paragrafo de conteudo-->
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0kPSHVuxOaw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
 
-                <!--card-->
-                <div class="card">
-                    <div class="content">
-                        <div class="img">
-                         <img src="icon.png" alt="">
-                        </div>
-                        <div class="details">
-                         <div class="name">Gabrielle dos Santos</div>
-                         <div class="job">Web Developer</div>
-                        </div>
-                        <div class="media-icons">
-                         <a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                         <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
-                         <a href="#" target="_blank"><i class="fab fa-instagram" ></i></a>
-                         <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-                        </div>
-                  </div>
-               </div>
-
-                <!--card-->
-                <div class="card">
-                    <div class="content">
-                        <div class="img">
-                         <img src="icon-julia.png" alt="">
-                        </div>
-                        <div class="details">
-                         <div class="name">Júlia Fabrício</div>
-                         <div class="job">Web Developer</div>
-                        </div>
-                        <div class="media-icons">
-                         <a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                         <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
-                         <a href="https://www.instagram.com/julia_fabricio_/?igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank"><i class="fab fa-instagram" ></i></a>
-                         <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-                        </div>
-                  </div>
-              </div>
-
-                <!--card-->
-                <div class="card">
-                    <div class="content">
-                        <div class="img">
-                         <img src="icon-eduarda.png" alt="">
-                        </div>
-                        <div class="details">
-                         <div class="name">Maria Eduarda</div>
-                         <div class="job">Web Developer</div>
-                        </div>
-                        <div class="media-icons">
-                         <a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                         <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
-                         <a href="https://www.instagram.com/eduardalirac/?igshid=MmJiY2I4NDBkZg%3D%3D" target="_blank"><i class="fab fa-instagram" ></i></a>
-                         <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-                        </div>
-                  </div>
-              </div>
-
+            <div> 
+                <p 
+                    class="topico-direita"> Sala de aula Invertida, o que é?
+                </p>
+                <p id="sobre-sala-de-aula">
+                    A sala de aula invertida é uma grande inspiração. Esse método é uma inovação na forma como o ensino é
+                    conduzido. Nele, os alunos estudam o conteúdo em casa, por meio de vídeos, textos e outras fontes, enquanto
+                    as aulas presenciais são utilizadas para atividades práticas e discussões em grupo.
+                    <br><br>
+                    Na forma tradicional de ensino, o professor assume a dianteira, usando o quadro e os livros para introduzir
+                    novos conhecimentos para os alunos. O dever de casa é usado como reforço do que foi ensinado na sala de
+                    aula. Já na metodologia da sala de aula invertida, o aprendizado começa antes da aula com o aluno estudando
+                    os materiais elaborados e/ou selecionados pelo professor. Com esse conhecimento prévio, professor e alunos
+                    levantam discussões, reforçam pontos importantes e interagem na aula presencial.
+                </p>
             </div>
         </div>
-    </div>
-    
+
+        <!--cards nosso time-->
+        <div>
+            <p class="topico">
+                Nosso time:
+            </p>
+        </div>
+
+        <div class="meu-time" id="nosso-time">
+            <div class="main-card">
+                <div class="cards">
+                    <!--card-->
+                    <div class="card">
+                        <div class="content">
+                            <div class="img">
+                                <img src="icon.png" alt="Foto de Ana Carolina">
+                            </div>
+                            <div class="details">
+                                <div class="name">Ana Carolina</div>
+                                <div class="job">Web Developer</div>
+                            </div>
+                            <div class="media-icons">
+                                <a href="https://pt-br.facebook.com/" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/cora_queiroga/?igshid=MmJiY2I4NDBkZg%3D%3D" target="_blank"><i class="fab fa-instagram" ></i></a>
+                                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--card-->
+                    <div class="card">
+                        <div class="content">
+                            <div class="img">
+                                <img src="icon-gabrielle.png" alt="Foto de Gabrielle Rodrigues">
+                            </div>
+                            <div class="details">
+                                <div class="name">Gabrielle Rodrigues</div>
+                            <div class="job">Web Developer</div>
+                            </div>
+                            <div class="media-icons">
+                                <a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-instagram" ></i></a>
+                                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--card-->
+                    <div class="card">
+                        <div class="content">
+                            <div class="img">
+                                <img src="icon-julia.png" alt="Foto de Júlia Fabrício">
+                            </div>
+                            <div class="details">
+                                <div class="name">Júlia Fabrício</div>
+                                <div class="job">Web Developer</div>
+                            </div>
+                            <div class="media-icons">
+                                <a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/julia_fabricio_/?igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank"><i class="fab fa-instagram" ></i></a>
+                                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--card-->
+                    <div class="card">
+                        <div class="content">
+                            <div class="img">
+                                <img src="icon-eduarda.png" alt="Foto de Maria Eduarda">
+                            </div>
+                            <div class="details">
+                                <div class="name">Maria Eduarda</div>
+                                <div class="job">Web Developer</div>
+                            </div>
+                            <div class="media-icons">
+                                <a href="https://pt-br.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/eduardalirac/?igshid=MmJiY2I4NDBkZg%3D%3D" target="_blank"><i class="fab fa-instagram" ></i></a>
+                                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!--rodape-->
-   <footer>
-    <div id="footer_content">
-       <div id="footer_contacts">
-           <h1>Delta Next</h1>
-           <p>Plataforma de estudo online</p>
-
-           <div id="footer_social_media">
-               <a href="https://www.instagram.com/" target="_blank" class="footer-link" id="instagram">
-                   <i class="fa-brands fa-instagram"></i>
-               </a>
-
-               <a href="https://pt-br.facebook.com/" target="_blank" class="footer-link" id="facebook">
-                   <i class="fa-brands fa-facebook-f"></i>
-               </a>
-
-               <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" class="footer-link" id="whatsapp">
-                   <i class="fa-brands fa-whatsapp"></i>
-               </a>
-           </div>
-
-       </div>
-
-       <ul class="footer-list">
-           <li>
-               <h3> Navegue </h3>
-           </li>
-
-           <li>
-               <a href="#" class="footer-link">Fóruns em destaque</a>
-           </li>
-
-           <li>
-               <a href="index.html#segundo-paragrafo" class="footer-link">Sala de aula invertida</a>
-           </li>
-
-           <li>
-               <a href="#" class="footer-link">Principais métodos</a>
-           </li>
-       </ul>
-
-       <ul class="footer-list">
-           <li>
-               <h3> Institucional </h3>
-           </li>
-
-           <li>
-               <a href="index.html#sobre-nos" class="footer-link">Sobre nós</a>
-           </li>
-
-           <li>
-               <a href="index.html#nosso-time" class="footer-link">Nosso time</a>
-           </li>
-
-           <li>
-               <a href="faleconosco.html" target="_blank" class="footer-link">Fale conosco</a>
-           </li>
-       </ul>
-
-       <div id="footer_subscribe">
-           <h3>Inscreva-se</h3>
-
-           <p>
-               insira seu e-mail para ser notificado sobre nossas novidades:
-           </p>
-
-           <div id="input_group">
-               <input type="email" id="email">
-               <button>
-                   <i class="fa-regular fa-envelope"></i>
-               </button>
-           </div>
-       </div>
-    </div>
-    <div id="footer_copyright">
-       &#169
-       2023 all rights reserved
-    </div>
-  </div>
-  </footer>
-    
-</body>
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>Delta Next</h1>
+                    <p>
+                        Plataforma de estudo online
+                    </p>
+                    <div id="footer_social_media">
+                        <a href="https://www.instagram.com/" target="_blank" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://pt-br.facebook.com/" target="_blank" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <ul class="footer-list">
+                    <li><h3>Navegue</h3></li>
+                    <li><a href="#" class="footer-link">Fóruns em destaque</a></li>
+                    <li><a href="index.html#segundo-paragrafo" class="footer-link">Sala de aula invertida</a></li>
+                    <li><a href="#" class="footer-link">Principais métodos</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li><h3>Institucional</h3></li>
+                    <li><a href="index.html#sobre-nos" class="footer-link">Sobre nós</a></li>
+                    <li><a href="index.html#nosso-time" class="footer-link">Nosso time</a></li>
+                    <li><a href="faleconosco.html" target="_blank" class="footer-link">Fale conosco</a></li>
+                </ul>
+                <div id="footer_subscribe">
+                    <h3>Inscreva-se</h3>
+                    <p>
+                        Insira seu e-mail para ser notificado sobre nossas novidades:
+                    </p>
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="footer_copyright">
+            &#169
+            2023 All Rights Reserved
+            </div>
+        </footer>
+        
+    </body>
 </html>
