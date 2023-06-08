@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+
+    <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale= 1.0">
@@ -18,165 +19,147 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
-    
+
         <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
+        <!--logo icon do site-->
+        <link rel="icon" href="logo-icon-navegacao.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!--footer-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!--logo icon do site-->
-    <link rel="icon" href="logo-icon-navegacao.png" type="image/x-icon">
-    
+
         <title>Deltanext</title>
     </head>
-<body style="font-family: 'Poppins', serif; min-height: 100vh; min-width: 100%;">
-    <!--navbar-->
-    <nav>
-        <a href="index.html">
-            <div class="logo">
-                <img src="imagens/logodeltanext.png" alt="Logo">
-            </div>
-        </a>
-    
-        <ul class="navigation">
-            <li><a href="#">Populares</a></li>
-            <li><a href="#">Métodos</a></li>
-            <li><a href="#">Sobre Nós</a></li>
-            <li class="dropdown">
-              <a href="#">Instituições Parceiras &#9662;</a>
-              <ul class="dropdown-content">
-                <li><a href="#">Unipê</a></li>
-                <li><a href="#">Uniesp</a></li>
-                <li><a href="#">Estácio</a></li>
-              </ul>
-            </li>
-        </ul>
-    
-        <div class="search">
-          <input type="text" placeholder="Pesquisar">
-          <button type="submit"><span class="material-icons">search</span> </button>
+
+    <body style="font-family: 'Poppins', serif; min-height: 100vh; min-width: 100%;">
+        
+        <header> 
+            <!--navbar-->
+            <nav>
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="logodeltanext.png" alt="Logomarca do Delta Next">
+                    </div>
+                </a>
+            
+                <ul class="navigation">
+                    <li><a href="#">Populares</a></li>
+                    <li><a href="#">Métodos</a></li>
+                    <li><a href="index.html#sobre-nos">Sobre Nós</a></li>
+                    <li class="dropdown">
+                        <a href="#">Instituições Parceiras &#9662;</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Unipê</a></li>
+                            <li><a href="#">Uniesp</a></li>
+                            <li><a href="#">Estácio</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <div class="search">
+                    <input type="text" placeholder="Pesquisar">
+                    <button type="submit"><span class="material-icons">search</span></button>
+                </div>
+                <div class="buttons">
+                    <button>Login</button>
+                    <button>Cadastro</button>
+                </div>
+            </nav>
+        </header>
+
+        <div>
+            <form id="form-faleconosco" method="get" action="faleconosco-enviado.html">
+                <h3><b>Fale Conosco</b></h3>
+                <p>
+                    Para encaminhar sua mensagem ao Delta Next, por favor preencha o formulário abaixo.
+                </p>
+                
+                <div class="campo-faleconosco">
+                    <label><strong>Nome</strong></label>
+                    <input type="text" name="nome" required>
+                </div>
+                
+                <div class="campo-faleconosco">
+                    <label><strong>Email</strong></label>
+                    <input type="email" name="email" required>
+                </div>
+                
+                <div class="campo-faleconosco">
+                    <label><strong>Assunto</strong></label>
+                    <select name="select">
+                        <option selected disabled value="">Selecione</option>
+                        <option value="valor1">Elogio</option>
+                        <option value="valor2">Crítica</option>
+                        <option value="valor3">Sugestão</option>
+                        <option value="valor4">Dúvida</option>
+                        <option value="valor5">Certificado</option>
+                    </select>
+                </div>
+                
+                <div class="campo-faleconosco">
+                    <label><strong>Mensagem</strong></label>
+                    <textarea name="mensagem" id="mensagem-faleconosco" required></textarea>
+                </div>
+                <button id="botao-faleconosco" type="submit">Enviar</button>
+            </form>
         </div>
-        <div class="buttons">
-          <button>Login</button>
-          <button>Cadastro</button>
-        </div>
-      </nav>
-    <div>
-        <form id="form-faleconosco" method="get" action="faleconosco-enviado.html">
-            <h3><b>Fale Conosco</b></h3>
-            <p>
-            Descreva seu problema preenchendo o formulário abaixo.
-            </p>
-            <div class="campo-faleconosco">
-                <label><strong>Nome</strong></label>
-                <input type="text" name="nome" required>
-            </div>
-            <div class="campo-faleconosco">
-                <label><strong>Email</strong></label>
-                <input type="email" name="email" required>
-            </div>
-            <div class="campo-faleconosco">
-                <label><strong>Assunto</strong></label>
-                <select name="select">
-                    <option selected disabled value="">Selecione</option>
-                    <option value="valor1">Elogio</option>
-                    <option value="valor2">Crítica</option>
-                    <option value="valor3">Sugestão</option>
-                    <option value="valor4">Dúvida</option>
-                    <option value="valor5">Certificado</option>
-                </select>
-            </div>
-            <div class="campo-faleconosco">
-                <label><strong>Descrição</strong></label>
-                <textarea name="descricao" id="descricao-faleconosco" required></textarea>
-            </div>
-            <button id="botao-faleconosco" type="submit">Enviar</button>
-        </form>
-    </div>
     
-    <!--rodape-->
-   <footer>
-    <div id="footer_content">
-       <div id="footer_contacts">
-           <h1>Delta Next</h1>
-           <p>Plataforma de estudo online</p>
-
-           <div id="footer_social_media">
-               <a href="https://www.instagram.com/" target="_blank" class="footer-link" id="instagram">
-                   <i class="fa-brands fa-instagram"></i>
-               </a>
-
-               <a href="https://pt-br.facebook.com/" target="_blank" class="footer-link" id="facebook">
-                   <i class="fa-brands fa-facebook-f"></i>
-               </a>
-
-               <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" class="footer-link" id="whatsapp">
-                   <i class="fa-brands fa-whatsapp"></i>
-               </a>
-           </div>
-
-       </div>
-
-       <ul class="footer-list">
-           <li>
-               <h3> Navegue </h3>
-           </li>
-
-           <li>
-               <a href="#" class="footer-link">Fóruns em destaque</a>
-           </li>
-
-           <li>
-               <a href="index.html#segundo-paragrafo" class="footer-link">Sala de aula invertida</a>
-           </li>
-
-           <li>
-               <a href="#" class="footer-link">Principais métodos</a>
-           </li>
-       </ul>
-
-       <ul class="footer-list">
-           <li>
-               <h3> Institucional </h3>
-           </li>
-
-           <li>
-               <a href="index.html#sobre-nos" class="footer-link">Sobre nós</a>
-           </li>
-
-           <li>
-               <a href="index.html#nosso-time" class="footer-link">Nosso time</a>
-           </li>
-
-           <li>
-               <a href="faleconosco.html" target="_blank" class="footer-link">Fale conosco</a>
-           </li>
-       </ul>
-
-       <div id="footer_subscribe">
-           <h3>Inscreva-se</h3>
-
-           <p>
-               insira seu e-mail para ser notificado sobre nossas novidades:
-           </p>
-
-           <div id="input_group">
-               <input type="email" id="email">
-               <button>
-                   <i class="fa-regular fa-envelope"></i>
-               </button>
-           </div>
-       </div>
-    </div>
-    <div id="footer_copyright">
-       &#169
-       2023 all rights reserved
-    </div>
-  </div>
-  </footer>
-    
-
-</body>
+        <!--rodape-->
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>Delta Next</h1>
+                    <p>
+                        Plataforma de estudo online
+                    </p>
+                    <div id="footer_social_media">
+                        <a href="https://www.instagram.com/" target="_blank" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://pt-br.facebook.com/" target="_blank" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <ul class="footer-list">
+                    <li><h3>Navegue</h3></li>
+                    <li><a href="#" class="footer-link">Fóruns em destaque</a></li>
+                    <li><a href="index.html#segundo-paragrafo" class="footer-link">Sala de aula invertida</a></li>
+                    <li><a href="#" class="footer-link">Principais métodos</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li><h3>Institucional</h3></li>
+                    <li><a href="index.html#sobre-nos" class="footer-link">Sobre nós</a></li>
+                    <li><a href="index.html#nosso-time" class="footer-link">Nosso time</a></li>
+                    <li><a href="faleconosco.html" target="_blank" class="footer-link">Fale conosco</a></li>
+                </ul>
+                <div id="footer_subscribe">
+                    <h3>Inscreva-se</h3>
+                    <p>
+                        Insira seu e-mail para ser notificado sobre nossas novidades:
+                    </p>
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="footer_copyright">
+            &#169
+            2023 All Rights Reserved
+            </div>
+        </footer>
+        
+    </body>
 </html>
