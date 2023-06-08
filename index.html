@@ -73,9 +73,6 @@
             </nav>
         </header>
 
-        <!--botao de topo da pagina-->
-        <a id="link-botao-topo" href="#"><span class="material-symbols-outlined">keyboard_arrow_up</span></a>
-
         <!--conteudo da pagina-->
         <img src="livros-capa.png" alt="Estante de livros desfocada como imagem de fundo para as duas frases a seguir" class="imagem-capa">
 
@@ -98,7 +95,7 @@
             <p class="paragrafos"> 
                 Nos baseamos em uma sala de aula invertida e temos como objetivo uma aprendizagem humanizada e moldável para os mais diversos tipos de alunos, tanto na inclusão de pessoas com deficiências físicas, quanto em limitações cognitivas.
                 <br></br>
-                Variedade de cursos 100% gratuitos para os usuários, sobre os mais diversos tópicos. Os cursos não são ministrados por professores, mas sim pela própria “sala de aula”.Além de possuir horários e demandas pensadas subjetivamente na disponibilidade de cada um. Os alunos terão a liberdade de estudar seus tópicos de interesse da forma que mais os convém, tendo em vista que são incontáveis os métodos de estudo existentes, dos mais populares aos mais individuais.
+                Variedade de cursos 100% gratuitos para os usuários, sobre os mais diversos tópicos. Os cursos não são ministrados por professores, mas sim pela própria “sala de aula”. Além de possuir horários e demandas pensadas subjetivamente na disponibilidade de cada um. Os alunos terão a liberdade de estudar seus tópicos de interesse da forma que mais os convém, tendo em vista que são incontáveis os métodos de estudo existentes, dos mais populares aos mais individuais.
                 <br></br>
                 Nossa premissa é dar o apoio e o livre arbítrio de se aprimorar tanto nos estudos, quanto no mercado de trabalho, que com o avanço da tecnologia, se torna cada vez mais afunilado e exigente quanto a qualificações. Um grande dilema que se passa na mente de todo jovem é a necessidade de experiência para conseguir um trabalho, mas a necessidade de um trabalho para conseguir experiência, diferentemente de cursinhos tradicionais.
             </p>    
@@ -220,7 +217,19 @@
                 </div>
             </div>
         </div>
-        
+
+        <!--vlibras-->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
         <!--rodape-->
         <footer>
             <div id="footer_content">
@@ -266,6 +275,10 @@
                     </div>
                 </div>
             </div>
+
+            <!--botao de topo da pagina-->
+            <a id="link-botao-topo" href="#"><span class="material-symbols-outlined">keyboard_arrow_up</span></a>
+
             <div id="footer_copyright">
             &#169
             2023 All Rights Reserved
