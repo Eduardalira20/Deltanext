@@ -38,7 +38,7 @@
     </head>
 
     <body style="font-family: 'Poppins', serif; min-height: 100vh; min-width: 100%;">
-        
+
         <header> 
             <!--navbar-->
             <nav>
@@ -47,10 +47,10 @@
                         <img src="logodeltanext.png" alt="Logomarca do Delta Next">
                     </div>
                 </a>
-            
+
                 <ul class="navigation">
-                    <li><a href="#">Populares</a></li>
-                    <li><a href="#">Métodos</a></li>
+                    <li><a href="index.html#destaque-cursos">Populares</a></li>
+                    <li><a href="index.html#todos-os-metodos">Técnicas</a></li>
                     <li><a href="index.html#sobre-nos">Sobre Nós</a></li>
                     <li class="dropdown">
                         <a href="#">Instituições Parceiras &#9662;</a>
@@ -61,7 +61,7 @@
                         </ul>
                     </li>
                 </ul>
-            
+
                 <div class="search">
                     <input type="text" placeholder="Pesquisar">
                     <button type="submit"><span class="material-icons">search</span></button>
@@ -73,43 +73,23 @@
             </nav>
         </header>
 
-        <div>
-            <form id="form-faleconosco" method="get" action="faleconosco-enviado.html">
-                <h3><b>Fale Conosco</b></h3>
-                <p>
-                    Para encaminhar sua mensagem ao Delta Next, por favor preencha o formulário abaixo.
-                </p>
-                
-                <div class="campo-faleconosco">
-                    <label><strong>Nome</strong></label>
-                    <input type="text" name="nome" required>
-                </div>
-                
-                <div class="campo-faleconosco">
-                    <label><strong>Email</strong></label>
-                    <input type="email" name="email" required>
-                </div>
-                
-                <div class="campo-faleconosco">
-                    <label><strong>Assunto</strong></label>
-                    <select name="select">
-                        <option selected disabled value="">Selecione</option>
-                        <option value="valor1">Elogio</option>
-                        <option value="valor2">Crítica</option>
-                        <option value="valor3">Sugestão</option>
-                        <option value="valor4">Dúvida</option>
-                        <option value="valor5">Certificado</option>
-                    </select>
-                </div>
-                
-                <div class="campo-faleconosco">
-                    <label><strong>Mensagem</strong></label>
-                    <textarea name="mensagem" id="mensagem-faleconosco" required></textarea>
-                </div>
-                <button id="botao-faleconosco" type="submit">Enviar</button>
-            </form>
+        <div id="faleconosco-enviado">
+            <h2>Mensagem enviada!</h2><br>
+            <h4>Em breve um membro da nossa equipe entrará em contato com você.</h4>
         </div>
-    
+
+        <!--vlibras-->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
         <!--rodape-->
         <footer>
             <div id="footer_content">
@@ -132,9 +112,9 @@
                 </div>
                 <ul class="footer-list">
                     <li><h3>Navegue</h3></li>
-                    <li><a href="#" class="footer-link">Fóruns em destaque</a></li>
+                    <li><a href="index.html#destaque-cursos" class="footer-link">Fóruns em destaque</a></li>
                     <li><a href="index.html#segundo-paragrafo" class="footer-link">Sala de aula invertida</a></li>
-                    <li><a href="#" class="footer-link">Principais métodos</a></li>
+                    <li><a href="index.html#todos-os-metodos" class="footer-link">Principais técnicas</a></li>
                 </ul>
                 <ul class="footer-list">
                     <li><h3>Institucional</h3></li>
@@ -155,11 +135,15 @@
                     </div>
                 </div>
             </div>
+
+            <!--botao de topo da pagina-->
+            <a id="link-botao-topo" href="#"><span class="material-symbols-outlined">keyboard_arrow_up</span></a>
+
             <div id="footer_copyright">
             &#169
             2023 All Rights Reserved
             </div>
         </footer>
-        
+
     </body>
 </html>
