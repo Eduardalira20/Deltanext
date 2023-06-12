@@ -697,11 +697,38 @@ footer {
 }
 
 .bloco-cadastro {
-    padding: 50px;
+    padding: 40px;
+    background-color: wheat;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    border-radius: 40px;
 }
 
 .boas-vindas {
     display: flex;
     justify-content: center;
     font-size: 4.5rem;
+}
+
+.botao-submit {
+  font-size: 20px;
+  padding: 0.3125rem 0.625rem;
+  margin-top: 15px;
+  height: 50px;
+  width: 100px;
+  border-radius: 30px;
+  background-color: #C24B48;
+  color: rgb(255, 255, 255);
+  border-color: transparent;
+  text-align: center;
+  position: relative;
+
+}
+
+.esqueci-a-senha {
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+
 }
