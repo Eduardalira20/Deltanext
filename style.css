@@ -159,7 +159,7 @@ body {
 }
 
 .card-top img {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
@@ -181,29 +181,25 @@ body {
   overflow: hidden;
 }
 
-.card-info h2 {
-  font-weight: bold;
-  font-size: 15px;
-  font-family: 'Poppins', serif;
-  font-size: 18px;
-  margin: 10px 0 5px 0;
+.card-info h2{
+  font-weight:bold;
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  margin: 10px 0 5px 0;;
   
 }
 
 .date {
   font-family: 'Poppins', serif;
   margin-bottom: 10px;
+  color: #000000;
 }
 
-span,
-p {
-  font-size: 15px;
-  display: block;
-}
+
 
 .excerpt {
   font-family: 'Poppins', serif;
-  color: #aeaeae;
+  color: #585858;
 }
 
 .flex-row {
@@ -264,7 +260,7 @@ p {
 #segundo-paragrafo {
   display: flex;
   align-items: center;
-  margin-top: 1.25rem;
+  margin-top: 1.250rem;
   margin-right: 4.375rem;
   margin-left: 4.375rem;
 }
