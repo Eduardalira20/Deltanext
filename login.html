@@ -1,763 +1,173 @@
-nav {
-  background-color: #114F9A;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.625rem;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  z-index: 100;
-}
-
-.logo img {
-  height: 40px;
-}
-
-.navigation {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.navigation li {
-  margin-right: 1.25rem;
-}
-
-.navigation li a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.navigation li a:hover {
-  color: #FFD105;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #114F9A;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  color: #FFD105;
-}
-
-.dropdown-content li {
-  padding: 0.75rem 1rem;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.search {
-  display: flex;
-  align-items: center;
-}
-
-.search input {
-  padding: 0.4375rem;
-  width: 200px;
-  border-radius: 200px;
-  border: none;
-}
-
-.search button {
-  padding: 0.200rem 0.350rem;
-  background-color: white;
-  color: grey;
-  border: none;
-  cursor: pointer;
-  border-radius: 20px;
-  vertical-align: middle;
-  margin-left: 5px;
-}
-
-.material-icons {
-  padding: 0.125rem;
-  margin-top: 0.125rem;
-}
-
-.buttons button {
-  padding: 0.3125rem 0.625rem;
-  height: 40px;
-  width: 90px;
-  border-radius: 20px;
-  background-color: #C24B48;
-  color: rgb(255, 255, 255);
-  border: none;
-  cursor: pointer;
-  font-size: medium;
-}
-
-.buttons :hover {
-  background-color: #db3d3a;
-}
-
-@media (max-width: 600px) {
-  .search {
-    display: none;
-  }
-
-  .buttons button {
-    display: none;
-  }
-}
-
-.imagem-capa {
-  margin-top: 60px;
-}
-
-
-#capa-frase1 {
-  margin-top: -14.0625rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 0.1875rem 0.1875rem 3.3125rem #797878;
-  font-family: "Geologica", sans-serif;
-  font-weight: 700;
-  font-size: 3.75rem;
-  color: #ffffff;
-}
-
-#capa-frase2 {
-  margin-top: 0.375rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 9.375rem;
-  text-shadow: 0.1875rem 0.1875rem 0.625rem #797878;
-  font-family: "Geologica", sans-serif;
-  font-weight: 200;
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-
-
-.topico {
-  font-family: "Geologica", sans-serif;
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin-left: 4.375rem;
-  color: #114F9A;
-  margin-top: 3.125rem;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.grid-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
-  margin: 20px 0;
-}
-
-.card-top img {
-  display: flex;
-  width: 100%;
-}
-
-.container2 {
-  width: 90%;
-  margin: auto;
-}
-
-.card2 {
-  background: #fff;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 2px 0px 10px rgb(0 0 0 / 20%);
-}
-
-.card-top {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  overflow: auto;
-}
-
-.card-info h2{
-  font-weight:bold;
-  font-family: 'Lato', sans-serif;
-  font-size: 26px;
-  margin: 10px 0 5px 0;;
-  
-}
-
-.date {
-  font-family: 'Poppins', serif;
-  margin-bottom: 10px;
-  color: #000000;
-}
-
-
-
-.excerpt {
-  font-family: 'Poppins', serif;
-  color: #585858;
-}
-
-.flex-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.card-bottom {
-  margin-top: 20px;
-}
-
-.button {
-  text-decoration: unset;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #4e4e4e;
-  width: 80px;
-  text-align: center;
-  font-size: 15px;
-  line-height: 30px;
-  border-radius: 5px;
-  background: #f2f4f6;
-}
-
-.read-more {
-  text-decoration: unset;
-  color: #000;
-  font-weight: 600;
-}
-
-.btn-sky {
-
-  background: rgba(163, 168, 175, 0.251)
-}
-
-.topico-direita {
-  font-family: "Geologica", sans-serif;
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin-left: 1.25rem;
-  color: #114F9A;
-  margin-bottom: 3.125rem;
-}
-
-.paragrafos {
-  font-family: 'Poppins', serif;
-  text-align: justify;
-}
-
-#container {
-  display: flex;
-  align-items: center;
-  margin-top: 0.625rem;
-  margin-left: 4.375rem;
-}
-
-#segundo-paragrafo {
-  display: flex;
-  align-items: center;
-  margin-top: 1.250rem;
-  margin-right: 4.375rem;
-  margin-left: 4.375rem;
-}
-
-#sobre-sala-de-aula {
-  font-family: 'Poppins', serif;
-  margin-left: 1.25rem;
-  text-align: justify;
-  margin-top: 0.625rem;
-}
-
-.card {
-  margin-top: 1.25rem;
-  margin-left: 4.375rem;
-}
-
-/*fale conosco*/
-#form-faleconosco {
-  margin-top: 7%;
-  margin-bottom: 5%;
-  margin-left: 33%;
-  margin-right: 33%;
-  justify-content: center;
-
-}
-
-input,
-select,
-textarea {
-  border-radius: 5px;
-}
-
-.campo-faleconosco label {
-  display: block;
-  margin-bottom: 0.125rem;
-}
-
-.campo-faleconosco input[type="text"],
-.campo-faleconosco input[type="email"] {
-  border: 1px solid #114F9A;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  display: block;
-  margin-bottom: 1.875rem;
-  width: 304px;
-}
-
-.campo-faleconosco select {
-  border: 1px solid #0a3d7a;
-  display: block;
-  margin-bottom: 1.875rem;
-  background-color: #114F9A;
-  color: white;
-}
-
-.campo-faleconosco textarea {
-  border: 1px solid #114F9A;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  display: block;
-  margin-bottom: 1.875rem;
-  width: 416px;
-}
-
-#botao-faleconosco {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.375rem;
-  background-color: #114F9A;
-  border: none;
-  color: white;
-  border-radius: 5px;
-}
-
-/*fale conosco - enviado*/
-#faleconosco-enviado {
-  text-align: center;
-  margin-top: 12.5rem;
-  margin-bottom: 12.5rem;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-/*metodos-tecnicas*/
-#todos-os-metodos{
-  background-color: #eceaea;
-  margin: 20px 50px 20px 50px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 35px;
-  border: 2px solid red;
-  border-color:#d6d6d6;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-}
-.titulo-principais-metodos{
-  font-family:"Geologica", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  margin-left: 70px;
-  color: #114F9A;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.subtitulo-principais-metodos{
-  font-family:"Geologica", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  color:#000000;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-#tecnica-pomodoro, #metodo-robinson, #mapa-mental {
-  margin-left: 140px;
-  margin-bottom: 25px;
-  background-color:#FFFCF3;
-  width: 80%;
-  padding: 10px 45px 10px 45px;
-  border-radius: 25px;
-  text-align: justify;
-  overflow: auto;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-  transition: all 0.4s ease;
-  border: 2px solid red;
-  border-color:#E3C6B8;
-}
-.pomodoro:hover {
-  transform: translateY(-15px);
-  color: #0a3d7a;
-}
-.robinson:hover{
-  transform: translateY(-15px);
-  color: #0a3d7a;
-}
-.mapa-mental:hover{
-  transform: translateY(-15px);
-  color: #0a3d7a;
-}
-
-/*cards*/
-/* Google Font CDN Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Geologica", sans-serif;
-}
-
-.meu-time {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-::selection {
-  background: #114F9A;
-  color: #fff;
-}
-
-.meu-time {
-  width: 100%;
-  overflow: auto;
-  padding: 2.5rem 0;
-}
-
-.meu-time .main-card {
-  display: flex;
-  justify-content: space-evenly;
-  width: 200%;
-}
-
-.meu-time .main-card .cards {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 0rem;
-  justify-content: space-between;
-}
-
-.main-card .cards .card {
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 1.875rem;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-  transition: all 0.4s ease;
-}
-
-.main-card .cards .card:hover {
-  transform: translateY(-15px);
-}
-
-.cards .card .content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.cards .card .content .img {
-  height: 130px;
-  width: 130px;
-  border-radius: 50%;
-  padding: 0.1875rem;
-  background: #114F9A;
-  margin-bottom: 0.875rem;
-}
-
-.card .content .img img {
-  height: 100%;
-  width: 100%;
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.card .content .name {
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-
-.card .content .job {
-  font-size: 1.25rem;
-  color: #114F9A;
-}
-
-.card .content .media-icons {
-  margin-top: 10px;
-  display: flex;
-
-}
-
-#link-botao-topo {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #114F9A;
-  padding: 0.4375rem;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  box-shadow: 3px 3px 10px #333;
-  border-radius: 40%;
-}
-
-.media-icons a {
-  text-align: center;
-  line-height: 33px;
-  height: 35px;
-  width: 35px;
-  margin: 0 0.25rem;
-  font-size: 0.875rem;
-  color: #FFF;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  background: #114F9A;
-  transition: all 0.3s ease;
-}
-
-.media-icons a:hover {
-  color: #114F9A;
-  background-color: #fff;
-  border-color: #114F9A;
-}
-
-.container .button {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 1.25rem;
-}
-
-@media (max-width: 768px) {
-  .main-card .cards .card {
-    margin: 1.25rem 0 0.625rem 0;
-    width: calc(100% / 2 - 10px);
-  }
-}
-
-@media (max-width: 600px) {
-  .main-card .cards .card {
-    /* margin: 20px 0 10px 0; */
-    width: 100%;
-  }
-}
-
-/*?*/
-#rodape {
-  color: #002238;
-  background-color: #b9e2fe;
-  padding: 3.125rem;
-}
-
-/*footer*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
-
-#footer_content {
-  font-family: 'inter,sans-serif';
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  letter-spacing: 1px;
-  background-color: #dfdfdf;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 3rem 3.5rem;
-}
-
-footer {
-  width: 100%;
-  color: #114F9A;
-}
-
-.footer-link {
-  text-decoration: none;
-}
-
-#footer_contacts h1 {
-  margin-bottom: 0.75rem;
-}
-
-#footer_social_media {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1.5rem;
-}
-
-#footer_social_media .footer-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2.5rem;
-  width: 2.5rem;
-  color: rgb(255, 255, 255);
-  border-radius: 50%;
-  transition: all 0.4s;
-}
-
-#footer_social_media .footer-link i {
-  font-size: 1.25rem;
-}
-
-#footer_social_media .footer-link:hover {
-  opacity: 0.6;
-}
-
-#instagram {
-  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
-}
-
-#facebook {
-  background-color: #4267b3;
-}
-
-#whatsapp {
-  background-color: #25d366;
-}
-
-.footer-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  list-style: none;
-}
-
-.footer-list .footer-link {
-  color: #000000;
-  transition: all 0.4s;
-}
-
-.footer-list .footer-link:hover {
-  color: #C24B48;
-}
-
-#footer_subscribe {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-#footer_subscribe p {
-  color: #114F9A;
-}
-
-#input_group {
-  display: flex;
-  align-items: center;
-  background-color: #ffffff;
-  border-radius: 4px;
-}
-
-#input_group input {
-  all: unset;
-  padding: 0.75rem;
-  width: 100%;
-}
-
-#input_group button {
-  background-color: #114F9A;
-  border: none;
-  color: #fff;
-  padding: 0px 1.25rem;
-  font-size: 1.15rem;
-  height: 100%;
-  border-radius: 0px 4px 4px 0px;
-  cursor: pointer;
-  transition: all 0.4s;
-}
-
-#input_group button:hover {
-  opacity: 0.8;
-}
-
-#footer_copyright {
-  display: flex;
-  justify-content: center;
-  background-color: #114F9A;
-  color: #ffffff;
-  font-size: 0.9rem;
-  padding: 1.5rem;
-  font-weight: 100;
-}
-
-@media screen and (max-width: 768px) {
-  #footer_content {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-  }
-}
-
-@media screen and (max-width: 426px) {
-  #footer_content {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 3rem 2rem;
-  }
-}
-
-.bloco-cadastro {
-    color:#002238;
-    padding: 40px;
-    background-color: #ebeeff;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 60px;
-    border-radius: 40px;
-    justify-items: baseline;
-}
-
-.boas-vindas {
-    display: flex;
-    justify-content: center;
-    font-size: 3.5rem;
-    color: #C24B48;
-}
-
-.botao-submit {
-  font-size: 30px;
-  padding: 0.3125rem 0.625rem;
-  margin-top: 15px;
-  margin-left: 510px;
-  height: 70px;
-  width: 170px;
-  align-items: center;
-  border-radius: 40px;
-  background-color: #114F9A;
-  color: rgb(255, 255, 255);
-  border-color: transparent;
-  position: relative;
-
-}
-
-.esqueci-a-senha {
-    display: flex;
-    padding: 20px;
-    display:inline-flex;
-    justify-content: space-evenly;
-}
-
-.email {
-    border-color: transparent;
-    border-radius: 20px;
-    padding: 0.3125rem;
-    width: 800px;
-    margin-bottom: 10px;
-    margin-left: 200px;
-}
-.senha {
-  border-color: transparent;
-  border-radius: 20px;
-  padding: 0.3125rem;
-  width: 800px;
-  margin-bottom: 10px;
-  margin-left: 200px;
-}
-.form-check-label {
-  margin-left: 210px;
-}
-
-.form-check-input {
-  margin-left: 200px;
-}
-
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <!--conexao com o css externo-->
+    <link href="style.css" rel="stylesheet">
+    <!--conexao do bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <!--conexao do google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
+    <!--logo icon do site-->
+    <link rel="icon" href="imagens.html/logo-icon-navegacao.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--footer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Deltanext</title>
+</head>
+
+    <header>
+        <!--navbar-->
+        <nav>
+            <a href="index.html">
+                <div class="logo">
+                    <img src="imagens.html/logodeltanext.png" alt="Logomarca do Delta Next">
+                </div>
+            </a>
+
+            <ul class="navigation">
+                <li><a href="#destaque-cursos">Populares</a></li>
+                <li><a href="#todos-os-metodos">Técnicas</a></li>
+                <li><a href="index.html#sobre-nos">Sobre Nós</a></li>
+                <li class="dropdown">
+                    <a href="#">Instituições Parceiras &#9662;</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Unipê</a></li>
+                        <li><a href="#">Uniesp</a></li>
+                        <li><a href="#">Estácio</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="search">
+                <input type="text" placeholder="Pesquisar">
+                <button type="submit"><span class="material-icons">search</span></button>
+            </div>
+            <div class="buttons">
+                <button>Login</button>
+                <button>Cadastro</button>
+            </div>
+        </nav>
+    </header>
+     <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <br>
+    <div class="bloco-login">
+        <br>
+        <p class="boas-vindas">Bem vindo(a) de volta!</p>
+                <input type="email" class="email" id="exampleDropdownFormEmail1" placeholder="E-mail">
+             
+              <div class="mb-3">
+                <input type="password" class="senha" id="exampleDropdownFormPassword1" placeholder="Senha">
+              </div>
+              <div class="mb-3">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                  <label class="form-check-label" for="dropdownCheck">
+                    Lembre de mim
+                  </label>
+                <div class="esqueci-a-senha">
+            <a href><p>Novo por aqui? Crie seu cadastro</p></a>
+            <a href><p>Esqueci minha senha</p></a>
+                </div>
+              <button type="submit" class="botao-submit">Entrar</button>
+            
+            
+        </div>
+     </div>
+    </div>
+
+    <br>
+   
+    <!--rodape-->
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Delta Next</h1>
+                <p>
+                    Plataforma de estudo online
+                </p>
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/" target="_blank" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://pt-br.facebook.com/" target="_blank" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <h3>Navegue</h3>
+                </li>
+                <li><a href="#destaque-cursos" class="footer-link">Fóruns em destaque</a></li>
+                <li><a href="index.html#segundo-paragrafo" class="footer-link">Sala de aula invertida</a></li>
+                <li><a href="#todos-os-metodos" class="footer-link">Principais técnicas</a></li>
+            </ul>
+            <ul class="footer-list">
+                <li>
+                    <h3>Institucional</h3>
+                </li>
+                <li><a href="index.html#sobre-nos" class="footer-link">Sobre nós</a></li>
+                <li><a href="index.html#nosso-time" class="footer-link">Nosso time</a></li>
+                <li><a href="faleconosco.html" target="_blank" class="footer-link">Fale conosco</a></li>
+            </ul>
+            <div id="footer_subscribe">
+                <h3>Inscreva-se</h3>
+                <p>
+                    Insira seu e-mail para ser notificado sobre nossas novidades:
+                </p>
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--botao de topo da pagina-->
+        <a id="link-botao-topo" href="#"><span class="material-symbols-outlined">keyboard_arrow_up</span></a>
+
+        <div id="footer_copyright">
+            &#169
+            2023 All Rights Reserved
+        </div>
+    </footer>
+
+</body>
+</html>
