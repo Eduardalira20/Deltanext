@@ -771,14 +771,14 @@ nav {
   .titulo-cadastro {
     color: #C24B48;
     font-size: 30px;
-    margin-left: 200px;
+    margin-left: 135px;
   }
   
   .nome {
     border-color: transparent;
     margin-top: 7px;
     margin-bottom: 7px;
-    margin-left: 200px;
+    margin-left: 130px;
       border-radius: 20px;
       padding: 0.3125rem;
       width: 800px; }
@@ -787,7 +787,7 @@ nav {
     border-color: transparent;
     margin-top: 7px;
     margin-bottom: 7px;
-    margin-left: 200px;
+    margin-left: 130px;
       border-radius: 20px;
       padding: 0.3125rem;
       width: 800px;
@@ -797,7 +797,7 @@ nav {
     border-color: transparent;
     margin-top: 7px;
     margin-bottom: 7px;
-    margin-left: 200px;
+    margin-left: 130px;
       border-radius: 20px;
       padding: 0.3125rem;
       width: 800px;
@@ -807,7 +807,7 @@ nav {
     border-color: transparent;
     margin-top: 7px;
     margin-bottom: 7px;
-    margin-left: 200px;
+    margin-left: 130px;
       border-radius: 20px;
       padding: 0.3125rem;
       width: 800px;
@@ -817,7 +817,7 @@ nav {
     border-color: transparent;
     margin-top: 7px;
     margin-bottom: 7px;
-    margin-left: 200px;
+    margin-left: 130px;
       border-radius: 20px;
       padding: 0.3125rem;
       width: 800px;
@@ -827,7 +827,7 @@ nav {
     border-color: transparent;
     margin-top: 7px;
     margin-bottom: 7px;
-    margin-left: 200px;
+    margin-left: 130px;
       border-radius: 20px;
       padding: 0.3125rem;
       width: 800px;
@@ -837,7 +837,7 @@ nav {
     font-size: 20px;
     padding: 0.3125rem 0.625rem;
     margin-top: 15px;
-    margin-left: 830px;
+    margin-left: 760px;
     height: 60px;
     width: 170px;
     align-items: right;
