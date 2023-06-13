@@ -720,13 +720,14 @@ nav {
     font-size: 30px;
     padding: 0.3125rem 0.625rem;
     margin-top: 15px;
-    margin-left: 510px;
+    margin-left: 450px;
     height: 70px;
     width: 170px;
     align-items: center;
     border-radius: 40px;
-    background-color: #114F9A;
-    color: rgb(109, 32, 32);
+    background-color: #FFD105;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
     border-color: transparent;
     position: relative;
   
@@ -744,7 +745,7 @@ nav {
       padding: 0.3125rem;
       width: 800px;
       margin-bottom: 10px;
-      margin-left: 200px;
+      margin-left: 150px;
   }
   .senha {
     border-color: transparent;
@@ -752,7 +753,7 @@ nav {
     padding: 0.3125rem;
     width: 800px;
     margin-bottom: 10px;
-    margin-left: 200px;
+    margin-left: 150px;
   }
   
   .vamos-nos-conhecer {
@@ -841,14 +842,10 @@ nav {
     width: 170px;
     align-items: right;
     border-radius: 40px;
-    background-color: #114F9A;
+    background-color: #FFD105;
     color: rgb(255, 255, 255);
     border-color: transparent;
     position: relative;
   
   }
-  
-  
-  
-  
   
