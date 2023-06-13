@@ -696,7 +696,7 @@ footer {
   }
 }
 
-.bloco-cadastro {
+.bloco-login {
     color:#002238;
     padding: 40px;
     background-color: #ebeeff;
@@ -760,4 +760,101 @@ footer {
 .form-check-input {
   margin-left: 200px;
 }
+
+.vamos-nos-conhecer {
+  color:#002238;
+    padding: 40px;
+    background-color: #ebeeff;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    justify-items: baseline;
+}
+
+.titulo-cadastro {
+  color: #C24B48;
+  font-size: 30px;
+  margin-left: 200px;
+}
+
+.nome {
+  border-color: transparent;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 200px;
+    border-radius: 20px;
+    padding: 0.3125rem;
+    width: 800px; }
+
+.sobrenome {
+  border-color: transparent;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 200px;
+    border-radius: 20px;
+    padding: 0.3125rem;
+    width: 800px;
+}
+
+.nascimento {
+  border-color: transparent;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 200px;
+    border-radius: 20px;
+    padding: 0.3125rem;
+    width: 800px;
+}
+
+.email2 {
+  border-color: transparent;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 200px;
+    border-radius: 20px;
+    padding: 0.3125rem;
+    width: 800px;
+}
+
+.telefone {
+  border-color: transparent;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 200px;
+    border-radius: 20px;
+    padding: 0.3125rem;
+    width: 800px;
+}
+
+.senha2 {
+  border-color: transparent;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 200px;
+    border-radius: 20px;
+    padding: 0.3125rem;
+    width: 800px;
+}
+
+.botao-cadastro {
+  font-size: 20px;
+  padding: 0.3125rem 0.625rem;
+  margin-top: 15px;
+  margin-left: 830px;
+  height: 60px;
+  width: 170px;
+  align-items: right;
+  border-radius: 40px;
+  background-color: #114F9A;
+  color: rgb(255, 255, 255);
+  border-color: transparent;
+  position: relative;
+
+}
+
+
+
+
 
