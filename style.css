@@ -80,22 +80,23 @@ nav {
     margin-top: 0.125rem;
   }
   
+  .buttons button:hover {
+    background-color: #d63232; 
+    }
+
   .buttons button {
     padding: 0.3125rem 0.625rem;
     height: 40px;
     width: 90px;
     border-radius: 20px;
-    background-color: #C24B48;
+    background-color: #a73a38;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     font-size: medium;
   }
   
-  .buttons :hover {
-    background-color: #db3d3a;
-  }
-  
+
   @media (max-width: 600px) {
     .search {
       display: none;
@@ -698,7 +699,7 @@ nav {
   }
   
   .bloco-login {
-      color:#002238;
+      color:#093a5a;
       padding: 40px;
       background-color: #ebeeff;
       margin-left: 100px;
@@ -725,7 +726,7 @@ nav {
     align-items: center;
     border-radius: 40px;
     background-color: #114F9A;
-    color: rgb(255, 255, 255);
+    color: rgb(109, 32, 32);
     border-color: transparent;
     position: relative;
   
